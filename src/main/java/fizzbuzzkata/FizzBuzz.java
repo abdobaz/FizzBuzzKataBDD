@@ -10,9 +10,12 @@ public class FizzBuzz {
 	public String run(int firstNumber, int secondNumber) {
 		String result = STRING_EMPTY;
 		for (int number = firstNumber; number <= secondNumber; number++) {
-			if (number % 3 == 0) {
+			if ((number % 3 ==0) && (number % 5 ==0)) {
+				result += "FizzBuzz";
+			}
+			else if (number % 3 == 0) {
 				result += FIZZ;
-			} else if (number % 5 == 0) {
+			}else if (number % 5 == 0) {
 				result += BUZZ;
 			} else {
 				result += String.valueOf(number);
