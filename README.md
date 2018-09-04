@@ -12,7 +12,7 @@ So of course in order to avoid embarassment infront of your whole class, you hav
 
 Write a program that prints the numbers from **1** to **100**. But for multiples of **three** print **“Fizz”** instead of the number and for the multiples of **five** print **“Buzz”**. For numbers which are multiples of **both three and five** print **“FizzBuzz“**.
 
-** Sample output:**
+** Sample output : **
 
 1   
 2   
@@ -36,4 +36,4 @@ Fizz
 Buzz   
 ... etc up to 100
 
-**Source: ** <http://https://codingdojo.org/kata/FizzBuzz/> 
+** Source : ** <http://https://codingdojo.org/kata/FizzBuzz/> 
