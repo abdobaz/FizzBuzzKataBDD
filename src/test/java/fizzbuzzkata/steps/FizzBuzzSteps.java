@@ -1,5 +1,6 @@
 package fizzbuzzkata.steps;
 
+import cucumber.annotation.Before;
 import cucumber.annotation.en.Given;
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
@@ -11,7 +12,12 @@ public class FizzBuzzSteps {
 	private int firstNumber;
 	private int secondNumber;
 	private String outPut;
-	private FizzBuzz fizzBuzz=new FizzBuzz();;
+	private FizzBuzz fizzBuzz;
+	
+	@Before
+	public void setUp() {
+		fizzBuzz=new FizzBuzz();
+	}
 	
 	@Given("^I have first number as (\\d+)$")
 	public void I_have_first_number_as(int firstNumberArg) {
