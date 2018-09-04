@@ -45,3 +45,32 @@ Fizz
 Fizz
 Buzz
 """
+
+Scenario: show result from 1 to 20
+Given I have first number as 1
+And I have second number as 20
+When I run fizzBuzz program
+Then should show : 
+"""
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+"""
+
